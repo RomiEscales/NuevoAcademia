@@ -1,0 +1,147 @@
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+/**globales**/
+img{
+    max-width: 100%;
+
+}
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 3.8rem;
+}
+h2{
+    font-size: 3.4rem;
+}
+h3{
+    font-size: 3rem; 
+}
+/**Utilidades**/
+.seccion {
+    margin-top: 2rem;
+    margin-bottom:2rem ;/** nos va a permitir tener separaciones arriba y abajo**/
+
+}
+.fw-400{
+    font-weight:400 ;/** cambio el anocho de la letra**/
+    
+}
+.centrar-texto{
+    text-align: center;
+}
+/**Header**/
+.site-header.inicio{
+    background: url(../img/tapa.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 50vh;
+    min-height: 100vh;
+    color:#e9c79b;
+}
+.contenido-header{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-start;
+    
+}
+.contenido-header h1{
+    color:#fffefd;
+    
+    padding-bottom: 2rem;
+    max-width: 60rem;
+    line-height: 1.8rem;
+}
+.barra{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 3rem;
+}
+/**navegacion**/
+.navegacion a {
+    color: #fffefd;
+    text-decoration: none;
+    font-size: 1.8rem;
+    margin-right: 2rem;
+
+}
+.navegacion a:hover{
+    color: #fffefd;
+}
+.navegacion a:last-of-type {
+    margin: 0;
+}
+/**Iconos nosottros **/
+.encabezado-nosotros{
+    font-weight:400 ;/** cambio el anocho de la letra**/
+    text-align: center;
+}
+.iconos-nosotros{
+    display: flex; /** para centar los iconos osea los tres en forma vertical uno al lado del otro**/
+    justify-content: space-between ; /** mas espacios entre cada icono**/
+}
+.icono {
+    flex-basis: calc(33.3% - 1rem);/** para los espacios**/
+    text-align: center; /** aliniar de forma centrada los iconos y el texto**/
+}
+.icono h3 {
+    text-transform: uppercase; /** para poner el texto en mayuscula (loercase todas minusculas)
+    (capitalize la primer letra en mayusculas)**/
+    font-weight: 500 ;
+}
+/**Anuncios**/
+.contenedor-activitades{
+    display: flex;
+    justify-content: space-between ;
+
+}
+.contenedor-activitades1{
+    display: flex;
+    justify-content: space-between ;
+
+}
+.actividades{
+    flex-basis: calc (33.3% - 1rem) ;
+}
+.imagen{
+    display: block; 
+    margin: auto; 
+}
+.instrumentos{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.instrumentos1{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color:#e9c79b;
+    text-align: center;
+}
+.lista{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color:#e9c79b;
+    display: flex;
+    justify-content: space-between ;
+    color:#e9c79b;
+    text-align: left;
+}
+
+
+
